@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content=""width=device-width, initial-scale="1.0">
+        <title>Push Notification Sample</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    </head>
+    <body>
+        <table class="table">
+            <tbody>
+                <tr>
+                    <td>
+                        <a class="btn btn-link" href="/start-subscribe">通知受取登録</a>
+                    </td>
+                    <td class="align-middle">
+                        通知を受け取るsubsriptionを登録する画面です。ユーザーがボタンを押すと登録します。
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a class="btn btn-link" href="/force-subscribe">通知受取強制登録</a>
+                    </td>
+                    <td class="align-middle">
+                        通知を受け取るsubsriptionを登録する画面です。ページにアクセスするだけで登録します。
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a class="btn btn-link" href="/end-subscribe">通知解除</a>
+                    </td>
+                    <td class="align-middle">
+                        通知を受け取るsubsriptionを解除し、通知取得を終了する画面です。
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a class="btn btn-link" href="/immediate-notification">即時通知登録</a>
+                    </td>
+                    <td class="align-middle">
+                        subscriptionを登録している端末に対して即時通知する画面です。
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a class="btn btn-link" href="/reserve-notification">通知予約登録</a>
+                    </td>
+                    <td class="align-middle">
+                        subscriptionを登録している端末に対する通知を予約する画面です。
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a class="btn btn-link" href="/reservation-list">未送信通知予約一覧</a>
+                    </td>
+                    <td class="align-middle">
+                        未送信の通知予約の一覧を表示します。
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    </body>
+</html>

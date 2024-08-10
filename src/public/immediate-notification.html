@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content=""width=device-width, initial-scale="1.0">
+        <title>Push Notification Sample</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    </head>
+    <body>
+        <form id="notification-form">
+            <table class="table">
+                <tbody>
+                    <tr>
+                        <th class="align-middle text-center">
+                            通知タイトル
+                        </th>
+                        <td class="align-middle text-center">
+                            <input class="form-control form-sm" type="text" id="title" placeholder="通知のタイトルを入力します">
+                        </td>
+                    </tr>
+                    <tr>
+                        <th class="align-middle text-center">
+                            通知本文
+                        </th>
+                        <td class="align-middle text-center">
+                            <input class="form-control form-sm" type="text" id="body" placeholder="通知の本文を入力します">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="text-center" colspan="2">
+                            <button class="btn btn-primary btn-sm m-2" type="submit" id="reserve-notification">通知を送信</button>
+                            <br>
+                            <button class="btn btn-secondary btn-sm m-2" type="button" onclick="location.href='/'">戻る</button>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </form>
+
+        <script src="./js/immediate-notification.js"></script>
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    </body>
+</html>
